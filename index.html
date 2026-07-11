@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DC Design Portfolio - Enhanced</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Verdana, Geneva, Tahoma, sans-serif;background:#070707;color:#fff;overflow-x:hidden;background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+        url("/Users/chiragdhawan/Desktop/untitled folder/paper texture 3.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+body:before{content:"";position:fixed;inset:0;background:
+radial-gradient(circle at 20% 20%,rgba(0,212,255,.12),transparent 30%),
+radial-gradient(circle at 80% 70%,rgba(220,153,71,.12),transparent 35%);
+pointer-events:none}
+header{position:sticky;top:0;z-index:99;display:flex;justify-content:space-between;align-items:center;padding:18px 8%;
+background:rgba(10,10,10,.75);backdrop-filter:blur(12px);border-bottom:1px solid #222}
+.logo{font-size:1.6rem;font-weight:800;letter-spacing:2px}
+nav a{color:#fff;text-decoration:none;padding:10px 18px;border-radius:999px;transition:.35s;margin-left:8px}
+nav a:hover{background:#00d4ff;color:#000;transform:translateY(-3px)}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:5rem 8%;background:radial-gradient(circle,#00d4ff22,transparent 60%)}
+.hero h1{font-size:clamp(2.5rem,6vw,5rem);margin:0;animation:fadeUp 1s}
+.hero p{max-width:760px;color:#ddd;font-size:1.15rem;animation:fadeUp 1.2s}
+.btn{display:inline-block;margin-top:1rem;padding:14px 28px;border-radius:999px;background:linear-gradient(90deg,#dc9947,#ffbf69);color:#111;text-decoration:none;font-weight:700;transition:.35s}
+.btn:hover{transform:scale(1.08);box-shadow:0 10px 30px rgba(220,153,71,.5)}
+.social{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:2rem}
+.social a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#151515;color:#fff;text-decoration:none;transition:.35s}
+.social a:hover{transform:translateY(-6px) rotate(8deg);background:#00d4ff;color:#000}
+section{padding:5rem 8%}
+h2{font-size:2.3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card{background:#111;border:1px solid #222;border-radius:18px;overflow:hidden;transition:.4s;opacity:0;transform:translateY(50px)}
+.card.show{opacity:1;transform:none}
+.card:hover{transform:translateY(-10px) scale(1.02);box-shadow:0 15px 40px rgba(0,212,255,.2)}
+.card img{width:100%;display:block;transition:.5s}
+.card:hover img{transform:scale(1.08)}
+.card h3{padding:18px}
+.card a{display:block;text-decoration:none;color:white;}
+.contact-links{text-align:left;font-size:18px;font-weight:310;margin-top:20px;}
+.contact-links a{color:#fff;text-decoration:none;transition:0.3s ease;}
+.contact-links a:hover{color:#00d4ff;}
+.contact-links span{margin:0 12px;color:#888;}
+footer{text-align:center;padding:30px;background:#111}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@media(max-width:768px){header{flex-direction:column}.hero{padding:4rem 1.5rem}section{padding:4rem 1.5rem}}
+</style>
+</head>
+<body>
+<header><div class="logo">DC DESIGN</div><nav><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav></header>
+<section class="hero">
+<h1>Designs That Make Brands Impossible to Ignore.</h1>
+<p>Premium posters, branding, advertising creatives and social media designs crafted with bold visuals and strategic thinking.</p>
+<a class="btn" href="#portfolio">View Portfolio</a>
+<div class="social">
+<a href="https://www.instagram.com/chirag_dhawan15/"
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i>
+</a>
+<a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://www.behance.net/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-behance"></i>
+</a>
+
+<a href="https://dribbble.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-dribbble"></i>
+</a>
+
+<a href="https://wa.me/911234567890" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+</a>
+</a>
+</div>
+</section>
+<section id="about"><h2>About Me</h2><p>I design visuals that make brands impossible to ignore.</p>
+<p>Specializing in posters, advertising creatives, social media graphics, and branding, I transform ideas into designs that capture attention and communicate with purpose. Every project is crafted with creativity, precision, and a focus on delivering real impact.</p>
+<p>Design isn't just what people see—it's what they remember.</p></section>
+<section id="portfolio"><h2>Featured Work</h2><h3>Campaign Design</h3>
+<div class="grid">
+<div class="card"><a href="/Users/chiragdhawan/Desktop/untitled folder/Page 1.html"><img src="/Users/chiragdhawan/Desktop/untitled folder/Iced Coffee.png"><h3>Coffee Shop Campaign</h3></a></div>
+<div class="card"><a href="/Users/chiragdhawan/Desktop/untitled folder/Page 2.html"><img src="/Users/chiragdhawan/Desktop/untitled folder/Burger.png"><h3>Cafe Campaign</h3></a></div>
+<div class="card"><a href="/Users/chiragdhawan/Desktop/untitled folder/Page 3.html"><img src="/Users/chiragdhawan/Desktop/untitled folder/Car Launch.png"><h3>Car Launch</h3></a></div>
+<div class="card"><a href="/Users/chiragdhawan/Desktop/untitled folder/Page 4.html"><img src="/Users/chiragdhawan/Desktop/untitled folder//Japanese Cuisine.png"><h3>Cuisine</h3></a></div>
+</div></section>
+<section id="contact"><h2>Let's Work Together</h2><p class="contact-links">
+    <a href="mailto:your@email.com">Email</a>
+    <span>•</span>
+
+    <a href="https://www.instagram.com/chirag_dhawan15/" target="_blank">
+        Instagram
+    </a>
+    <span>•</span>
+
+    <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank">
+        LinkedIn
+    </a>
+    <span>•</span>
+
+    <a href="https://www.behance.net/YOUR_USERNAME" target="_blank">
+        Behance
+    </a>
+    </p></section>
+<footer>© 2026 DC Design</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.2});
+document.querySelectorAll('.card').forEach(c=>io.observe(c));
+</script>
+<script>
+    // Disable browser scroll restoration
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+
+    // Always go to the top after the page loads
+    window.addEventListener("load", () => {
+        requestAnimationFrame(() => {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "auto"
+            });
+        });
+    });
+
+    // Save the current scroll position
+window.addEventListener("beforeunload", () => {
+    sessionStorage.setItem("scrollPosition", window.scrollY);
+});
+
+// Restore the scroll position unless this is a reload
+window.addEventListener("pageshow", (event) => {
+    const navigation = performance.getEntriesByType("navigation")[0];
+
+    if (navigation && navigation.type === "reload") {
+        sessionStorage.removeItem("scrollPosition");
+        window.scrollTo(0, 0);
+    } else {
+        const pos = sessionStorage.getItem("scrollPosition");
+        if (pos !== null) {
+            window.scrollTo(0, parseInt(pos, 10));
+        }
+    }
+});
+</script>
+</body></html>

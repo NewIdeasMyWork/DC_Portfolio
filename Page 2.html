@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cafe Campaign</title>
+
+<style>
+
+body{
+    margin:0;font-family:Verdana, Geneva, Tahoma, sans-serif;background:#070707;color:#fff;overflow-x:hidden;background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+        url("/Users/chiragdhawan/Desktop/untitled folder/paper texture 3.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+body:before{content:"";position:fixed;inset:0;background:
+radial-gradient(circle at 20% 20%,rgba(0,212,255,.12),transparent 30%),
+radial-gradient(circle at 80% 70%,rgba(220,153,71,.12),transparent 35%);
+pointer-events:none}
+
+header{
+    padding:40px;
+    text-align:center;
+}
+
+.gallery{
+    width:90%;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:25px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+}
+
+.btn{display:flex;display:inline-block;justify-content:center;margin-top:1rem;padding:12px 12px 12px;border-radius:50px;background:linear-gradient(90deg,#dc9947,#ffbf69);color:#111;text-decoration:none;font-weight:700;transition:.35s}
+.btn:hover{transform:scale(1.08);box-shadow:0 10px 30px rgba(220,153,71,.5)}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Cafe Campaign</h1>
+
+<p>Advertising Campaign</p>
+
+</header>
+
+<div class="gallery">
+
+<img src="/Users/chiragdhawan/Desktop/untitled folder/Burger.png">
+
+<img src="/Users/chiragdhawan/Desktop/untitled folder/Burger.png">
+
+<img src="/Users/chiragdhawan/Desktop/untitled folder/Burger.png">
+
+</div>
+
+<a class="btn" href="/Users/chiragdhawan/Desktop/untitled folder/DC_Design_Portfolio_Enhanced(1).html">Back</a>
+
+</body>
+
+</html>
